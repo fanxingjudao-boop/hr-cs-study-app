@@ -1,0 +1,414 @@
+[
+  {
+    "id": "eval_001",
+    "category": "evaluation",
+    "question": "「MBO」の正式名称と考案者は？",
+    "choices": [
+      "A: Management by Objectives、ピーター・ドラッカー",
+      "B: Metrics Based Organization、フレデリック・テイラー",
+      "C: Management by Output、ジャック・ウェルチ",
+      "D: Mission Based Objectives、スティーブ・ジョブズ"
+    ],
+    "answer": "A",
+    "explanation": "Management by Objectives（目標管理）。1954年にピーター・ドラッカーが著書「現代の経営」で提唱。上司と部下が話し合って目標を設定し、達成度を評価する手法。多くの日本企業で人事考課に採用。",
+    "source": "ドラッカー著「現代の経営」（1954年）",
+    "source_url": "https://www.dhbr.net/articles/-/7046",
+    "tags": [
+      "MBO",
+      "目標管理",
+      "ドラッカー",
+      "人事評価"
+    ]
+  },
+  {
+    "id": "eval_002",
+    "category": "evaluation",
+    "question": "「OKR」の正式名称は？",
+    "choices": [
+      "A: Output and Key Results",
+      "B: Objectives and Key Results",
+      "C: Operational Knowledge Review",
+      "D: Objective Knowledge Rating"
+    ],
+    "answer": "B",
+    "explanation": "Objectives and Key Results（目標と主要な結果）。IntelのアンディグローブがMBOを発展させ、GoogleやFacebookが採用して広まった目標管理フレームワーク。野心的なObjectiveと3〜5個の定量的KRで構成される。",
+    "source": "Google re:Work OKRガイド",
+    "source_url": "https://rework.withgoogle.com/guides/set-goals-with-okrs/",
+    "tags": [
+      "OKR",
+      "目標管理",
+      "Google",
+      "KR"
+    ]
+  },
+  {
+    "id": "eval_003",
+    "category": "evaluation",
+    "question": "MBOとOKRの最大の違いとして正しいのは？",
+    "choices": [
+      "A: MBOは定量目標のみ、OKRは定性目標のみ",
+      "B: MBOは達成可能な現実的目標、OKRは意図的に高いストレッチゴール",
+      "C: OKRは給与連動、MBOは非連動",
+      "D: MBOはチーム単位、OKRは個人単位"
+    ],
+    "answer": "B",
+    "explanation": "MBOは達成率100%が理想とされるのに対し、OKRは達成率60〜70%を「健全な挑戦」とみなす設計。目標の公開性（全社透明）もOKRの特徴。HR SaaSのCS部門ではNRR・健全利用率などをKRに設定するケースが多い。",
+    "source": "Google re:Work OKRガイド",
+    "source_url": "https://rework.withgoogle.com/guides/set-goals-with-okrs/",
+    "tags": [
+      "OKR",
+      "MBO",
+      "目標管理",
+      "違い"
+    ]
+  },
+  {
+    "id": "eval_004",
+    "category": "evaluation",
+    "question": "「コンピテンシー評価」で測定するものとして正しいのは？",
+    "choices": [
+      "A: 売上・利益などの業績結果",
+      "B: 高業績者が共通して持つ行動特性・思考パターン",
+      "C: 勤務年数・資格保有数",
+      "D: 学歴・職歴"
+    ],
+    "answer": "B",
+    "explanation": "ハーバード大学のデイビッド・マクレランドが提唱。「優秀な人材はなぜ優秀なのか」を行動・思考レベルで定義し、評価基準に用いる。「顧客志向性」「課題解決力」「主体性」などCS職のコンピテンシー項目がある。",
+    "source": "厚生労働省 コンピテンシー導入の手引き",
+    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/koyoukintou/",
+    "tags": [
+      "コンピテンシー",
+      "行動特性",
+      "人事評価"
+    ]
+  },
+  {
+    "id": "eval_005",
+    "category": "evaluation",
+    "question": "360度フィードバック（多面評価）の「360度」が意味するものは？",
+    "choices": [
+      "A: 360日間の観察期間",
+      "B: 上司・部下・同僚・顧客など全方位からの評価",
+      "C: 360項目の評価設問",
+      "D: 360分の面談時間"
+    ],
+    "answer": "B",
+    "explanation": "上司（上方向）・部下（下方向）・同僚（横方向）・顧客（外部）など複数方向からフィードバックを収集する評価手法。自己評価とのギャップ認識と行動改善を目的とする。HR SaaSのサーベイ機能で実施されることが多い。",
+    "source": "SmartHR 360度評価ガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "360度評価",
+      "多面評価",
+      "フィードバック"
+    ]
+  },
+  {
+    "id": "eval_006",
+    "category": "evaluation",
+    "question": "「等級制度」の種類のうち、職務の内容・難易度で等級を決める制度は？",
+    "choices": [
+      "A: 職能資格制度",
+      "B: 職務等級制度（ジョブグレード）",
+      "C: 年功序列制度",
+      "D: 役割等級制度"
+    ],
+    "answer": "B",
+    "explanation": "Job Gradeとも呼ばれる。「人」ではなく「職務（Job）」に等級を設定する制度。外資系企業やSaaS企業で普及しており、職務記述書（Job Description）と連動して報酬が決まる。",
+    "source": "厚生労働省 賃金制度の概要",
+    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/chingin/",
+    "tags": [
+      "職務等級制度",
+      "Job Grade",
+      "ジョブ型",
+      "等級制度"
+    ]
+  },
+  {
+    "id": "eval_007",
+    "category": "evaluation",
+    "question": "「1on1ミーティング」の主な目的として最も適切なのは？",
+    "choices": [
+      "A: 上司から業務命令を一方的に伝達する場",
+      "B: 部下の成長・課題・キャリアを継続的にサポートする対話の場",
+      "C: 業績評価の最終確定を行う場",
+      "D: チームミーティングの代替"
+    ],
+    "answer": "B",
+    "explanation": "週次〜月次で行う上司と部下の定期的な1対1の対話。進捗確認ではなく「部下のための時間」として、心理的安全性の醸成・キャリア支援・課題の早期発見を目的とする。CS部門のマネジメント手法としても普及。",
+    "source": "SmartHR 1on1ガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "1on1",
+      "マネジメント",
+      "コミュニケーション",
+      "育成"
+    ]
+  },
+  {
+    "id": "eval_008",
+    "category": "evaluation",
+    "question": "評価のバイアスのうち「ハロー効果」とは何か？",
+    "choices": [
+      "A: 直近の出来事だけで評価してしまう傾向",
+      "B: 一つの優れた点が全体評価を高くしてしまう傾向",
+      "C: 全員を平均点付近に評価する傾向",
+      "D: 自分と似た特性の人を高評価する傾向"
+    ],
+    "answer": "B",
+    "explanation": "後光効果とも呼ばれる認知バイアス。例えば「話が上手い」という印象だけで業務能力全般を高く評価してしまう傾向。HR SaaS上で評価項目を構造化・分離することでバイアス軽減を支援できる。",
+    "source": "厚生労働省 人事評価制度の手引き",
+    "source_url": "https://www.mhlw.go.jp/",
+    "tags": [
+      "ハロー効果",
+      "評価バイアス",
+      "人事評価"
+    ]
+  },
+  {
+    "id": "eval_009",
+    "category": "evaluation",
+    "question": "「エンゲージメントサーベイ」で測定する主な内容は？",
+    "choices": [
+      "A: 社員の業績達成率",
+      "B: 社員の組織へのコミットメント・仕事への熱意・継続意志",
+      "C: スキルの習熟度",
+      "D: 顧客満足度"
+    ],
+    "answer": "B",
+    "explanation": "社員が組織や仕事にどれだけ感情的・認知的・行動的に関与しているかを測る定期的なアンケート調査。離職予兆の早期発見や組織課題の特定に活用。SmartHRなどHR SaaSの主要機能の一つ。",
+    "source": "SmartHR エンゲージメント機能",
+    "source_url": "https://smarthr.jp/",
+    "tags": [
+      "エンゲージメント",
+      "サーベイ",
+      "組織診断",
+      "離職予防"
+    ]
+  },
+  {
+    "id": "eval_010",
+    "category": "evaluation",
+    "question": "人事評価における「絶対評価」と「相対評価」の違いは？",
+    "choices": [
+      "A: 絶対評価は数値目標のみ、相対評価は定性目標のみ",
+      "B: 絶対評価は基準に対する個人の達成度、相対評価は他者との比較による順位付け",
+      "C: 絶対評価は管理職のみ、相対評価は一般社員のみ",
+      "D: 絶対評価は年1回、相対評価は月次"
+    ],
+    "answer": "B",
+    "explanation": "絶対評価は「目標達成率80%以上でA評価」のように事前設定基準と個人成果を比較。相対評価は「部門内上位20%をS評価」のように人員間で比較・分布調整する手法。多くの企業で両者を組み合わせて運用。",
+    "source": "厚生労働省 人事評価制度の手引き",
+    "source_url": "https://www.mhlw.go.jp/",
+    "tags": [
+      "絶対評価",
+      "相対評価",
+      "人事評価制度"
+    ]
+  },
+  {
+    "id": "eval_011",
+    "category": "evaluation",
+    "question": "CSのKPIである「NRR（Net Revenue Retention）」が100%を超えることが意味するのは？",
+    "choices": [
+      "A: 全顧客が解約なし",
+      "B: アップセル・クロスセルにより既存顧客からの収益が純増している",
+      "C: 新規顧客獲得数が解約数を上回っている",
+      "D: 顧客満足度スコアが100点満点"
+    ],
+    "answer": "B",
+    "explanation": "Net Revenue Retention（純収益維持率）。既存顧客群から翌期に得た収益÷前期収益 × 100で算出。解約・ダウングレードを差し引いてもアップセル・クロスセルで補填して100%超になることが優良SaaSの証左。",
+    "source": "Gainsight Customer Success Metrics Guide",
+    "source_url": "https://www.gainsight.com/blog/",
+    "tags": [
+      "NRR",
+      "Net Revenue Retention",
+      "CS KPI",
+      "アップセル"
+    ]
+  },
+  {
+    "id": "eval_012",
+    "category": "evaluation",
+    "question": "「カスタマーヘルススコア」を構成する要素として代表的でないのはどれか？",
+    "choices": [
+      "A: ログイン頻度・機能利用率",
+      "B: サポート問い合わせ数・内容",
+      "C: 担当者の年齢・性別",
+      "D: NPS・CSATスコア"
+    ],
+    "answer": "C",
+    "explanation": "ヘルススコアはプロダクト利用状況（ログイン頻度・機能使用率）、サポート接触履歴、顧客フィードバック（NPS/CSAT）、契約状況（更新率・プラン）などを組み合わせて算出。担当者の個人属性は通常含まれない。",
+    "source": "Gainsight Customer Health Score Guide",
+    "source_url": "https://www.gainsight.com/blog/",
+    "tags": [
+      "ヘルススコア",
+      "CS KPI",
+      "チャーン予防"
+    ]
+  },
+  {
+    "id": "eval_013",
+    "category": "evaluation",
+    "question": "「CSAT（Customer Satisfaction Score）」の測定方法として正しいのは？",
+    "choices": [
+      "A: 0〜10点でブランド推薦度を測る",
+      "B: 特定の対応・製品について「満足・普通・不満足」等で直後に測る",
+      "C: 年間解約率を1から引いた値",
+      "D: 月次の機能利用数合計"
+    ],
+    "answer": "B",
+    "explanation": "Customer Satisfaction Score。サポート対応・オンボーディングセッションなど特定の接点直後に短い設問で顧客満足度を測定。NPSが「会社全体への推薦度」を測るのに対し、CSATは「個別体験の満足度」を測る。",
+    "source": "Gainsight Customer Success Metrics Guide",
+    "source_url": "https://www.gainsight.com/blog/",
+    "tags": [
+      "CSAT",
+      "顧客満足度",
+      "CS KPI"
+    ]
+  },
+  {
+    "id": "eval_014",
+    "category": "evaluation",
+    "question": "人事評価の「フィードバック面談」で避けるべき「サンドイッチ手法」の問題点は？",
+    "choices": [
+      "A: 面談時間が長くなりすぎる",
+      "B: ポジティブで挟むことで改善点が伝わりにくくなる",
+      "C: 部下が反論しやすくなる",
+      "D: 評価結果の文書化が難しくなる"
+    ],
+    "answer": "B",
+    "explanation": "「褒める→改善点→褒める」の構造は受け手が改善メッセージを受け流しやすい。近年は改善点を明確に・具体的に・行動レベルで伝えるSBI（Situation-Behavior-Impact）フレームワークが推奨される。",
+    "source": "SmartHR 1on1・フィードバックガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "フィードバック",
+      "面談",
+      "マネジメント",
+      "SBI"
+    ]
+  },
+  {
+    "id": "eval_015",
+    "category": "evaluation",
+    "question": "「心理的安全性」の概念を組織研究で有名にしたGoogleのプロジェクト名は？",
+    "choices": [
+      "A: Project Zero",
+      "B: Project Aristotle",
+      "C: Project Quantum",
+      "D: Project Gemini"
+    ],
+    "answer": "B",
+    "explanation": "Google社内の大規模チーム研究「Project Aristotle（2012〜2015年）」。高パフォーマンスチームの共通要因として「心理的安全性」が最も重要と結論。HR SaaSのエンゲージメントサーベイ設計の理論的根拠として参照される。",
+    "source": "Google re:Work プロジェクト・アリストテレス",
+    "source_url": "https://rework.withgoogle.com/print/guides/5721312655835136/",
+    "tags": [
+      "心理的安全性",
+      "Project Aristotle",
+      "Google",
+      "組織開発"
+    ]
+  },
+  {
+    "id": "eval_016",
+    "category": "evaluation",
+    "question": "「タレントマネジメント」の目的として正しいのは？",
+    "choices": [
+      "A: 芸能タレントの採用管理",
+      "B: 従業員のスキル・経験・ポテンシャルを戦略的に把握・育成・配置する仕組み",
+      "C: 採用コストの削減",
+      "D: 給与水準の市場比較"
+    ],
+    "answer": "B",
+    "explanation": "人材を経営資源として戦略的に管理する概念。スキルマップ・サクセッションプラン（後継者育成）・配置転換・研修計画などを一元管理。HR SaaSのタレントマネジメントモジュールが担う主要機能。",
+    "source": "SmartHR タレントマネジメント機能",
+    "source_url": "https://smarthr.jp/",
+    "tags": [
+      "タレントマネジメント",
+      "HRテック",
+      "人材育成"
+    ]
+  },
+  {
+    "id": "eval_017",
+    "category": "evaluation",
+    "question": "「パフォーマンスマネジメント」において「CFR」が意味するのは？",
+    "choices": [
+      "A: Cost Feedback Ratio",
+      "B: Conversations, Feedback, Recognition",
+      "C: Competency Feature Review",
+      "D: Career Flow Rate"
+    ],
+    "answer": "B",
+    "explanation": "OKRの提唱者ジョン・ドーアが著書「Measure What Matters」で提唱した継続的パフォーマンスマネジメントの要素。年1回の評価から、継続的な「対話・フィードバック・承認」へ移行するアプローチ。",
+    "source": "John Doerr「Measure What Matters」(2018)",
+    "source_url": "https://www.whatmatters.com/",
+    "tags": [
+      "CFR",
+      "OKR",
+      "パフォーマンスマネジメント",
+      "継続的フィードバック"
+    ]
+  },
+  {
+    "id": "eval_018",
+    "category": "evaluation",
+    "question": "「グレード制度」で「バンド制（Broadbanding）」を採用する狙いは？",
+    "choices": [
+      "A: 等級数を細分化して昇進機会を増やす",
+      "B: 等級帯を広くとって職種横断の柔軟な配置と報酬設計を可能にする",
+      "C: 年功要素を完全排除する",
+      "D: 外部報酬データとの連動を断ち切る"
+    ],
+    "answer": "B",
+    "explanation": "従来の細かい等級区分を統合し、幅広い給与レンジを持つグレード帯を設定する手法。SaaS企業で多く採用され、職種を横断したキャリアパスの多様化や市場連動報酬設計がしやすくなる。",
+    "source": "厚生労働省 賃金制度の設計手法",
+    "source_url": "https://www.mhlw.go.jp/",
+    "tags": [
+      "Broadbanding",
+      "バンド制",
+      "グレード",
+      "報酬設計"
+    ]
+  },
+  {
+    "id": "eval_019",
+    "category": "evaluation",
+    "question": "カスタマーサクセスで「QBR（Quarterly Business Review）」の主な内容は？",
+    "choices": [
+      "A: 四半期ごとの採用計画発表",
+      "B: 四半期に一度、顧客と実績・ROI・今後の目標を振り返る戦略会議",
+      "C: 社内の四半期予算レビュー",
+      "D: 四半期ごとの製品リリース説明会"
+    ],
+    "answer": "B",
+    "explanation": "Quarterly Business Review。CS担当者が顧客の意思決定者クラスと四半期ごとに実施する戦略的レビュー。製品利用実績・ROI証明・次四半期の目標設定・アップセル提案が主な議題。エグゼクティブとの信頼構築の場。",
+    "source": "Gainsight QBR Best Practices",
+    "source_url": "https://www.gainsight.com/blog/",
+    "tags": [
+      "QBR",
+      "カスタマーサクセス",
+      "顧客戦略",
+      "エグゼクティブ"
+    ]
+  },
+  {
+    "id": "eval_020",
+    "category": "evaluation",
+    "question": "人事評価の「信頼性」を確保するために重要なことは？",
+    "choices": [
+      "A: 評価者を毎回変える",
+      "B: 評価基準を明文化・共有し、評価者訓練を実施する",
+      "C: 評価結果を非公開にする",
+      "D: 自己評価のみに依存する"
+    ],
+    "answer": "B",
+    "explanation": "評価の信頼性（同じ基準で誰が評価しても同じ結果になること）を高めるには、評価基準の明文化・被評価者への開示・評価者キャリブレーション（すり合わせ）訓練が不可欠。HR SaaSではキャリブレーション機能を持つ製品もある。",
+    "source": "厚生労働省 人事評価制度の手引き",
+    "source_url": "https://www.mhlw.go.jp/",
+    "tags": [
+      "評価信頼性",
+      "キャリブレーション",
+      "人事評価制度"
+    ]
+  }
+]

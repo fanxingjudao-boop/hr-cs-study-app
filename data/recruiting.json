@@ -1,0 +1,410 @@
+[
+  {
+    "id": "rec_001",
+    "category": "recruiting",
+    "question": "ATSとは何の略称か？",
+    "choices": [
+      "A: Application Tracking System",
+      "B: Applicant Tracking System",
+      "C: Automated Talent Selector",
+      "D: Agency Talent System"
+    ],
+    "answer": "B",
+    "explanation": "Applicant Tracking Systemの略。応募者の情報を一元管理し、書類選考・面接スケジュール・内定管理までの採用プロセスをシステム化するツール。SmartHR・HRMOS・Recruiteeなどが代表例。",
+    "source": "SmartHR 採用管理ガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "ATS",
+      "採用管理",
+      "HR用語",
+      "基礎"
+    ]
+  },
+  {
+    "id": "rec_002",
+    "category": "recruiting",
+    "question": "採用KPIとして使われる「CPH」の正式名称は？",
+    "choices": [
+      "A: Cost Per Hire",
+      "B: Candidates Per Hour",
+      "C: Conversion Per Hire",
+      "D: Cost Per Head"
+    ],
+    "answer": "A",
+    "explanation": "Cost Per Hire（採用単価）。1名採用するためにかかった総コスト（広告費・エージェント費・社内工数など）を採用人数で割った値。採用効率を測る最重要KPI。",
+    "source": "SmartHR HR用語集",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "CPH",
+      "採用KPI",
+      "コスト管理"
+    ]
+  },
+  {
+    "id": "rec_003",
+    "category": "recruiting",
+    "question": "求人票で法律上「性別を問わず募集」が義務付けられている根拠法は？",
+    "choices": [
+      "A: 労働基準法",
+      "B: 職業安定法",
+      "C: 男女雇用機会均等法",
+      "D: 雇用保険法"
+    ],
+    "answer": "C",
+    "explanation": "男女雇用機会均等法（均等法）第5条が根拠。募集・採用における性別差別を禁止しており、違反した場合は厚生労働大臣による勧告・企業名公表の対象になる。",
+    "source": "厚生労働省 男女雇用機会均等法",
+    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyoukintou/danjokintou/",
+    "tags": [
+      "均等法",
+      "法律",
+      "募集",
+      "採用"
+    ]
+  },
+  {
+    "id": "rec_004",
+    "category": "recruiting",
+    "question": "採用フローにおける「母集団形成」とは何を指すか？",
+    "choices": [
+      "A: 最終面接に進む候補者のリスト作成",
+      "B: 採用候補者となりうる応募者を集める活動全体",
+      "C: 内定者フォローアップのプロセス",
+      "D: 採用計画の予算策定"
+    ],
+    "answer": "B",
+    "explanation": "採用活動の最上流工程。求人媒体・リファラル・ダイレクトリクルーティング・エージェントなど複数チャネルを活用して、選考に進む可能性のある候補者数を最大化する活動。",
+    "source": "doda 採用担当者向けガイド",
+    "source_url": "https://doda.jp/recruiter/",
+    "tags": [
+      "母集団形成",
+      "採用戦略",
+      "ソーシング"
+    ]
+  },
+  {
+    "id": "rec_005",
+    "category": "recruiting",
+    "question": "「ダイレクトリクルーティング」の説明として正しいのは？",
+    "choices": [
+      "A: 人材紹介会社を通じた採用活動",
+      "B: 企業が候補者に直接アプローチする採用手法",
+      "C: 新卒一括採用の手法",
+      "D: リファラル採用の別名"
+    ],
+    "answer": "B",
+    "explanation": "企業が自らLinkedIn・ビズリーチ・OpenWork等を活用して候補者にスカウトメールを送る採用手法。エージェント費用を抑えられ、潜在転職層へアプローチできるメリットがある。",
+    "source": "ビズリーチ 採用担当者向けガイド",
+    "source_url": "https://www.bizreach.jp/",
+    "tags": [
+      "ダイレクトリクルーティング",
+      "スカウト",
+      "採用手法"
+    ]
+  },
+  {
+    "id": "rec_006",
+    "category": "recruiting",
+    "question": "採用KPIの「選考通過率」を算出する正しい計算式は？",
+    "choices": [
+      "A: 内定数 ÷ 応募数 × 100",
+      "B: 次選考進出者数 ÷ 当該選考受験者数 × 100",
+      "C: 採用数 ÷ 求人数 × 100",
+      "D: 応募数 ÷ 掲載費用 × 100"
+    ],
+    "answer": "B",
+    "explanation": "各選考ステップごとに計算する。例：書類通過率 = 書類通過者数 ÷ 応募数 × 100。通過率を可視化することでボトルネックの工程を特定し、採用効率改善に活用する。",
+    "source": "SmartHR 採用管理ガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "選考通過率",
+      "KPI",
+      "採用分析"
+    ]
+  },
+  {
+    "id": "rec_007",
+    "category": "recruiting",
+    "question": "「リファラル採用」とは何か？",
+    "choices": [
+      "A: 求人サイト経由の採用",
+      "B: 社員からの紹介による採用",
+      "C: 海外からの採用",
+      "D: 派遣社員の正社員登用"
+    ],
+    "answer": "B",
+    "explanation": "自社社員が知人・友人を候補者として紹介する採用手法。採用コストが低く、文化適合度が高い候補者が集まりやすい。HR SaaS企業でも社内制度として設けているケースが多い。",
+    "source": "SmartHR HR用語集",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "リファラル採用",
+      "採用手法",
+      "コスト削減"
+    ]
+  },
+  {
+    "id": "rec_008",
+    "category": "recruiting",
+    "question": "「TTF（Time to Fill）」とは何を意味するKPIか？",
+    "choices": [
+      "A: 採用にかかった総費用",
+      "B: 求人公開から内定承諾までにかかった日数",
+      "C: 面接にかかった平均時間",
+      "D: 入社後の定着率"
+    ],
+    "answer": "B",
+    "explanation": "Time to Fill（充足期間）。求人ポジションが空いてから内定承諾（ポジション充足）までに要した日数。採用スピードの効率指標として採用担当者が管理するKPI。",
+    "source": "LinkedIn Talent Solutions 採用指標ガイド",
+    "source_url": "https://business.linkedin.com/talent-solutions",
+    "tags": [
+      "TTF",
+      "採用KPI",
+      "採用スピード"
+    ]
+  },
+  {
+    "id": "rec_009",
+    "category": "recruiting",
+    "question": "求人媒体への掲載で「インディード」の課金モデルとして正しいのは？",
+    "choices": [
+      "A: 月額固定制",
+      "B: 掲載件数課金制",
+      "C: クリック課金制（PPC）",
+      "D: 採用成功報酬制"
+    ],
+    "answer": "C",
+    "explanation": "Indeedは基本的にクリック課金制（Pay Per Click）を採用。求人票を無料掲載しつつ、候補者がクリックした回数に応じて課金される。予算上限を設定して運用管理するため費用対効果の把握が重要。",
+    "source": "Indeed 採用担当者向けヘルプ",
+    "source_url": "https://jp.indeed.com/hire",
+    "tags": [
+      "Indeed",
+      "求人媒体",
+      "PPC",
+      "コスト"
+    ]
+  },
+  {
+    "id": "rec_010",
+    "category": "recruiting",
+    "question": "構造化面接（Structured Interview）の特徴として正しいのは？",
+    "choices": [
+      "A: 面接官が自由に質問を決める",
+      "B: 全候補者に同じ質問を同じ順序で行う",
+      "C: 複数候補者を同時に面接する",
+      "D: AIが面接を自動実施する"
+    ],
+    "answer": "B",
+    "explanation": "全候補者に標準化された質問セットを使い、評価基準を事前に決めて実施する面接手法。面接官の主観バイアスを減らし、公平性と選考精度を高める。HRMSやATSで評価シートを管理するケースが多い。",
+    "source": "SmartHR 採用管理ガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "構造化面接",
+      "選考手法",
+      "バイアス排除"
+    ]
+  },
+  {
+    "id": "rec_011",
+    "category": "recruiting",
+    "question": "候補者体験（CX：Candidate Experience）を改善する主な目的は？",
+    "choices": [
+      "A: 採用担当者の業務効率向上",
+      "B: 選考辞退率の低減と企業ブランドの向上",
+      "C: 採用コストの削減",
+      "D: 内定承諾後の離職防止"
+    ],
+    "answer": "B",
+    "explanation": "選考プロセスでの候補者体験が悪いと辞退・SNS拡散による採用ブランド毀損につながる。返信スピード・フィードバック提供・UI改善（ATSのフォーム設計）が主な施策。",
+    "source": "SmartHR 採用ブランディングガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "CX",
+      "候補者体験",
+      "採用ブランド",
+      "辞退率"
+    ]
+  },
+  {
+    "id": "rec_012",
+    "category": "recruiting",
+    "question": "採用計画で「要員計画」とは何を策定するプロセスか？",
+    "choices": [
+      "A: 採用にかかる予算の承認プロセス",
+      "B: 事業計画に基づき必要な人員数・職種・時期を決めるプロセス",
+      "C: 社員の配置転換計画",
+      "D: 採用媒体の選定プロセス"
+    ],
+    "answer": "B",
+    "explanation": "Workforce Planning（要員計画）。経営戦略・売上目標に基づいて「いつ・どの職種・何人」必要かを定義するプロセス。CS部門の採用計画はARR成長率と紐付けて策定されることが多い。",
+    "source": "SmartHR 人事管理ガイド",
+    "source_url": "https://smarthr.jp/know/",
+    "tags": [
+      "要員計画",
+      "人員計画",
+      "採用戦略"
+    ]
+  },
+  {
+    "id": "rec_013",
+    "category": "recruiting",
+    "question": "採用選考でSPI検査の「性格検査」が測定する主な内容は？",
+    "choices": [
+      "A: 業務処理スピード",
+      "B: 行動傾向・思考スタイル・社会関係性",
+      "C: 専門技術知識",
+      "D: 語学力"
+    ],
+    "answer": "B",
+    "explanation": "SPIの性格検査は「行動的側面」「意欲的側面」「情緒的側面」「社会関係的側面」の4側面を測定。職種適性や組織適合度を評価する目的で利用される。",
+    "source": "リクルートマネジメントソリューションズ SPI公式",
+    "source_url": "https://www.recruit-ms.co.jp/assessment/",
+    "tags": [
+      "SPI",
+      "性格検査",
+      "適性検査",
+      "選考"
+    ]
+  },
+  {
+    "id": "rec_014",
+    "category": "recruiting",
+    "question": "HRMSとATSの違いとして正しいのは？",
+    "choices": [
+      "A: HRMSは採用専用、ATSは人事全般",
+      "B: ATSは採用プロセス管理、HRMSは入社後の人事全般管理",
+      "C: 両者は同じ機能を持つ",
+      "D: ATSはアメリカ市場のみの用語"
+    ],
+    "answer": "B",
+    "explanation": "ATS（Applicant Tracking System）は採用プロセス（応募〜内定）に特化。HRMS（Human Resource Management System）は入社後の労務・給与・評価・勤怠管理まで包括するシステム。SmartHRはHRMSに分類される。",
+    "source": "SmartHR 製品紹介",
+    "source_url": "https://smarthr.jp/",
+    "tags": [
+      "HRMS",
+      "ATS",
+      "システム区分"
+    ]
+  },
+  {
+    "id": "rec_015",
+    "category": "recruiting",
+    "question": "採用における「オファー面談」の主な目的は？",
+    "choices": [
+      "A: 候補者のスキルを最終確認する",
+      "B: 内定条件の提示と候補者の懸念を払拭して承諾を促す",
+      "C: 競合他社の条件調査",
+      "D: 上司への候補者紹介"
+    ],
+    "answer": "B",
+    "explanation": "内定後に給与・役職・入社日などの条件を正式提示し、候補者の疑問点や不安を解消して内定承諾率を高める面談。承諾率（Offer Acceptance Rate）はCS職の採用KPIの一つ。",
+    "source": "doda 採用担当者向けガイド",
+    "source_url": "https://doda.jp/recruiter/",
+    "tags": [
+      "オファー面談",
+      "内定承諾率",
+      "採用クロージング"
+    ]
+  },
+  {
+    "id": "rec_016",
+    "category": "recruiting",
+    "question": "採用コスト計算で「人材紹介会社」の一般的な報酬形態は？",
+    "choices": [
+      "A: 月額サブスクリプション",
+      "B: 理論年収の30〜35%の成功報酬",
+      "C: 掲載期間に応じた固定費",
+      "D: 応募者数に応じた従量課金"
+    ],
+    "answer": "B",
+    "explanation": "人材紹介（ヘッドハンティング）会社は原則「成功報酬型」で、採用が決定した際に内定者の理論年収（見込み年収）の概ね30〜35%を企業が支払う慣行が業界標準。",
+    "source": "厚生労働省 有料職業紹介事業ガイドライン",
+    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/haken-shoukai/",
+    "tags": [
+      "人材紹介",
+      "成功報酬",
+      "採用コスト"
+    ]
+  },
+  {
+    "id": "rec_017",
+    "category": "recruiting",
+    "question": "雇用形態のうち「有期雇用契約」の法定最長契約期間は（一般の場合）？",
+    "choices": [
+      "A: 1年",
+      "B: 2年",
+      "C: 3年",
+      "D: 5年"
+    ],
+    "answer": "C",
+    "explanation": "労働基準法第14条に基づき、一般の有期労働契約の上限は3年。高度専門職・60歳以上は5年まで可。なお、同一使用者と5年超の有期雇用が続いた場合は無期転換ルール（労働契約法18条）が適用される。",
+    "source": "厚生労働省 労働基準法 第14条",
+    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/keiyaku/",
+    "tags": [
+      "有期雇用",
+      "労働基準法",
+      "契約期間",
+      "法律"
+    ]
+  },
+  {
+    "id": "rec_018",
+    "category": "recruiting",
+    "question": "求人票に明示が「義務付けられている」労働条件はどれか？",
+    "choices": [
+      "A: 従業員数・社員食堂の有無",
+      "B: 賃金・労働時間・休日・就業場所・業務内容",
+      "C: 昇給実績・ボーナス支給額",
+      "D: 代表者名・設立年"
+    ],
+    "answer": "B",
+    "explanation": "職業安定法第5条の3に基づき、募集時に必ず明示すべき「明示事項」として賃金・労働時間・休日・就業場所・業務内容などが規定されている。2024年改正で明示義務が強化された。",
+    "source": "厚生労働省 職業安定法 第5条の3",
+    "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000172668.html",
+    "tags": [
+      "職業安定法",
+      "明示義務",
+      "求人票",
+      "法律"
+    ]
+  },
+  {
+    "id": "rec_019",
+    "category": "recruiting",
+    "question": "採用指標「NPS（Net Promoter Score）」を採用文脈で使う場合、何を測定するか？",
+    "choices": [
+      "A: 採用担当者への候補者満足度",
+      "B: 社員が友人に自社を職場として勧める可能性",
+      "C: 新卒採用の内定辞退率",
+      "D: 採用媒体のパフォーマンス"
+    ],
+    "answer": "B",
+    "explanation": "eNPS（Employee NPS）として活用。「この会社を友人・知人に職場として推薦しますか？」の設問に0〜10点で回答させ、推薦者率－批判者率で算出。採用・エンゲージメント施策の効果測定に使用。",
+    "source": "SmartHR エンゲージメントサーベイ",
+    "source_url": "https://smarthr.jp/",
+    "tags": [
+      "NPS",
+      "eNPS",
+      "エンゲージメント",
+      "採用ブランド"
+    ]
+  },
+  {
+    "id": "rec_020",
+    "category": "recruiting",
+    "question": "中途採用で「ポテンシャル採用」が意味することとして正しいのは？",
+    "choices": [
+      "A: 即戦力人材のみを対象とした採用",
+      "B: 現時点のスキル不足を将来の成長可能性で補完し採用する方針",
+      "C: 海外大学卒業者を対象とした採用",
+      "D: 60歳以上のシニア人材採用"
+    ],
+    "answer": "B",
+    "explanation": "経験・スキルが要件を完全に満たさなくても、学習意欲・論理思考・コミュニケーション力などポテンシャルを重視して採用する方針。スタートアップ・SaaS企業がCS職などで採用するケースが増加している。",
+    "source": "doda 転職市場レポート 2025",
+    "source_url": "https://doda.jp/",
+    "tags": [
+      "ポテンシャル採用",
+      "転職",
+      "CS採用"
+    ]
+  }
+]

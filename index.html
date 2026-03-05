@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HR SaaS カスタマーサクセス職を目指す方向けのHR用語・知識学習クイズアプリ">
+  <title>HR CS 学習アプリ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header class="header">
+  <div class="header-left">
+    <span class="header-logo">📚</span>
+    <div>
+      <div class="header-title">HR CS 学習アプリ</div>
+      <div class="header-subtitle">HR SaaS カスタマーサクセス 知識強化</div>
+    </div>
+  </div>
+  <span class="header-badge" id="headerBadge">読み込み中...</span>
+</header>
+
+<!-- ─── MAIN ─── -->
+<main class="container">
+
+  <!-- 検索カード -->
+  <div class="search-card">
+    <div class="search-field">
+      <span class="search-field-icon">🔍</span>
+      <input
+        id="searchInput"
+        type="search"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="キーワードで検索（例：OKR、36協定、ヘルススコア、NRR）"
+      >
+      <button id="clearBtn" onclick="clearSearch()" aria-label="検索クリア">✕</button>
+    </div>
+
+    <div class="filter-row">
+      <span class="filter-label">カテゴリ：</span>
+      <button class="pill active" onclick="setCategory(this,'all')">
+        <span class="pill-dot"></span>すべて
+      </button>
+      <button class="pill" onclick="setCategory(this,'recruiting')">
+        <span class="pill-dot"></span>採用管理
+      </button>
+      <button class="pill" onclick="setCategory(this,'evaluation')">
+        <span class="pill-dot"></span>人事評価
+      </button>
+      <button class="pill" onclick="setCategory(this,'labor')">
+        <span class="pill-dot"></span>労務管理
+      </button>
+    </div>
+  </div>
+
+  <!-- 結果バー -->
+  <div class="results-bar">
+    <div class="results-count" id="resultsCount"></div>
+    <select class="sort-select" id="sortSelect" onchange="render()">
+      <option value="default">並び順：デフォルト</option>
+      <option value="category">カテゴリ順</option>
+    </select>
+  </div>
+
+  <!-- カードグリッド -->
+  <div id="cardGrid">
+    <div class="loading">
+      <div class="spinner"></div>
+      <span>問題データを読み込んでいます...</span>
+    </div>
+  </div>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
